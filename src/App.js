@@ -22,7 +22,7 @@ function App() {
       <Input />
       <Button onClick={weather.fetchData} value="Search" />
       <Card />
-      <Button value="Refresh" />
+      <Button value="Refresh" onClick={weather.fetchCurrentUserLocationData} />
     </div>
   );
 }
